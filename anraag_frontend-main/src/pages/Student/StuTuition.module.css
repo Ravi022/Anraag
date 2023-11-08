@@ -1,0 +1,21 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.adST{
+    width: 100vw;
+    background-color: white;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+}
+.mainTable{
+    width: 1200px;
+    height:93vh;
+    position: absolute;
+    left:28%;
+    font-size: 20px;
+    border-collapse: collapse;
+    padding-top: 80px;
+
+}

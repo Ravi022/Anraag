@@ -1,0 +1,125 @@
+.frm{
+    height: 350px;
+    width: 700px;
+    background-color: rgba(202, 185, 185, 0.247);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding:30px 50px 35px;
+    
+}
+
+.frm *{
+    font-family: 'Poppins',sans-serif;
+    color: #000000;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.fr{
+    height: 350px;
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(108, 165, 1); */
+    /* opacity: 90%; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    align-items: center;
+    top: 40%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgba(112, 197, 0, 0.945);
+    box-shadow: 0 0 40px rgba(20, 175, 0, 0.6);
+    padding:30px 50px 35px;
+    
+}
+.hh {
+    background:transparent ;
+    /* backdrop-filter: blur(10px); */
+    margin-bottom: 0;
+    margin-top:90px;
+    font-size: 32px;
+    /* top:50%; */
+    font-weight: 500;
+    line-height: 42px;
+    color: rgba(112, 197, 0, 0.945);
+    text-align: left;
+}
+
+
+.fr *{
+    font-family: 'Poppins',sans-serif;
+    color: rgba(112, 197, 0, 0.945);;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.h {
+    background:transparent ;
+    /* backdrop-filter: blur(10px); */
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    color: #080710;
+    text-align: left;
+}
+
+.lb{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    border: #000000;
+}
+.ip{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    border: 2px solid #000000;
+    padding: 0 10px;
+    margin-bottom: 18px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.link{
+    padding-top: 2px;
+    margin-top: 5px;
+    color: #1845ad;
+}
+::placeholder{
+    color: #000000;
+    border: #000000;
+}
+.bt{
+    margin-top: 25px;
+    width: 100%;
+    background-color: #041C32;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btt{
+    margin-top: 25px;
+    width: 100%;
+    background-color: #041C32;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}

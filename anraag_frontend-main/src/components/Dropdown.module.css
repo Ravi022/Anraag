@@ -1,0 +1,50 @@
+.Dropdown{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 150px;
+    border-radius: 8px;
+    position: absolute;
+    top:4.5rem;
+    right: 1.5rem; 
+    background-color: white;
+    border: 1px solid #2F4050;
+    color:#2F4050;
+    
+ /* color:white */
+}
+.Dropdown::before{
+    content: "";
+    position: absolute;
+    transform: rotate(45deg);
+    top:-0.85rem;
+    right: 1.4rem;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-left: 1px solid #2F4050;
+    border-top: 1px solid #2F4050;
+
+
+}
+.menu{
+    /* padding-top: 1rem; */
+    padding-left: 0;
+    list-style: none;
+    font-size: 18px;
+}
+.element{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+padding-left: 18px;
+padding-bottom: 10px;
+}
+.icon{
+padding-right: 1rem;
+}
+.element:hover{
+    background-color: #2F4050;
+    color:white;
+    cursor: pointer;
+}

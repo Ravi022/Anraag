@@ -1,0 +1,36 @@
+.toolbar{
+    display: flex;
+    flex-direction: row;
+    background-color:#041C32 ;
+    color: white;
+    align-items: center;
+    font-family: 'Poppins',sans-serif;
+    height: 62px;
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+
+}
+.title{
+    padding-left: 3rem;
+}
+.left{
+    display: flex;
+    gap: 1rem;
+    font-size: 30px;
+    padding-left: 2rem;
+    padding-top: 0.2rem;
+    
+    
+}
+
+.right{
+    font-size: 1.3em ;
+    padding: 1rem;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right:2%;
+}
+
+.ic:hover{
+    cursor: pointer;
+}

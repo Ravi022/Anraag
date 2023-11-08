@@ -1,0 +1,34 @@
+thead{
+    background-color: #041C32;
+    /* display: block; */
+    position: sticky ;
+    padding-top: 50px;
+    border: none;
+    color:white;
+}
+table{
+    
+    margin-bottom: 40px;
+font-family: 'Courier New', Courier, monospace;
+table-layout: fixed;
+width: 300px;
+}
+td{
+    border: none;
+    line-height: 50px;
+    word-wrap: break-word;
+}
+th{
+    border-radius: 0;
+}
+tr{
+    height:60px;
+    /* text-align: center; */
+    /* justify-content: center;
+     */
+     /* top:50% */
+}
+.row react-bootstrap-table-pagination{
+    color: #041C32;
+}
+tbody{overflow-y: auto;}
